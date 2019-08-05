@@ -9,7 +9,7 @@ def summon_captain_planet(array)# code an argument here
   # Your code here
   newArray = []
   array.each do |word|
-    newArray.push "#{word.capitalize}!"
+    newArray.pus("#{word.capitalize}!")
   end
 end
 
